@@ -1,7 +1,25 @@
+:root {
+  --snow-white: #F2F0E9;
+  --orange-coloured-white: #E8E1C9;
+  --skimmed-milk-white: #D9D5C4;
+  --ash-grey: #B7B8A4;
+  --broccoli-brown: #5C5850;
+  --ultramarine-blue: #4C6FA5;
+  --imperial-purple: #33355C;
+  --scotch-blue: #1E2038;
+  --emerald-green: #5B9A73;
+  --verdigris-green: #2E6E52;
+  --sap-green: #5C6640;
+  --duck-green: #193A2E;
+  --dutch-orange: #E8A13C;
+  --lake-red: #9A1F4A;
+  --crimson-red: #7A5560;
+  --deep-reddish-brown: #3E2A28;
+}
 body {
-  font-family: 'Montserrat';            
+  font-family: 'Montserrat';
   color: rgb(51, 51, 51);
-  background-color: rgb(252,252,252);
+  background-color: var(--snow-white);
   margin-top: 80px;          
   margin-left: 50px;          
   margin-right: 50px;          
@@ -12,6 +30,7 @@ body {
 h1 {
   font-size: 42px;
   font-weight: 700;
+  color: var(--ultramarine-blue);
 }
 h2 {
   font-size: 42px;
