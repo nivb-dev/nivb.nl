@@ -73,11 +73,11 @@ a.social_links:hover {
 }
 
 a.navigation {
-  color: var(--dutch-orange);
+  color: var(--ultramarine-blue);
 }
 
 a.navigation:hover {
-  color: var(--ultramarine-blue);
+  color: var(--dutch-orange);
 }
 
 a:hover {
