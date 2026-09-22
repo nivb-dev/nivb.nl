@@ -68,6 +68,18 @@ a:visited {
   color: #215c98;
 }
 
+a.social_links:hover {
+  color: var(--ultramarine-blue);
+}
+
+a.navigation {
+  color: var(--dutch-orange);
+}
+
+a.navigation:hover {
+  color: var(--ultramarine-blue);
+}
+
 a:hover {
   color: #215c98;
   text-decoration: underline;
